@@ -13,7 +13,7 @@
     "behat/behat": "^3.0",
     "symfony/config": ">=2.8",
     "behat/mink-extension": "^2.0",
-    "chekote/noun-store": "^4.0",
+    "chekote/noun-store": "dev-laravel6",
     "ext-zip": "^1.0",
     "ext-curl": "*"
   },
@@ -43,6 +43,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/Chekote/MinkSelenium2Driver"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/manuerumx/noun-store"
     }
   ]
 }

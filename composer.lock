@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "563a7cd7b20232222a763a0a21564e5c",
+    "content-hash": "0e20f25923b11a8d3d010bd9b1f73c0e",
     "packages": [
         {
             "name": "behat/behat",
@@ -306,20 +306,20 @@
         },
         {
             "name": "chekote/noun-store",
-            "version": "v4.0.0",
+            "version": "dev-laravel6",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Chekote/noun-store.git",
-                "reference": "c50c685e44c8b3e348c3461727d8d278c4f45e50"
+                "url": "https://github.com/manuerumx/noun-store.git",
+                "reference": "2db2de36338304f9e6af209a69b135155f0308f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Chekote/noun-store/zipball/c50c685e44c8b3e348c3461727d8d278c4f45e50",
-                "reference": "c50c685e44c8b3e348c3461727d8d278c4f45e50",
+                "url": "https://api.github.com/repos/manuerumx/noun-store/zipball/2db2de36338304f9e6af209a69b135155f0308f9",
+                "reference": "2db2de36338304f9e6af209a69b135155f0308f9",
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "~5.4",
+                "illuminate/support": "~5.4|~6.20",
                 "php": ">=5.6.30"
             },
             "require-dev": {
@@ -334,7 +334,13 @@
                     ]
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-0": {
+                    "": [
+                        "test"
+                    ]
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -343,7 +349,10 @@
                 "noun",
                 "testing"
             ],
-            "time": "2020-03-16T16:36:03+00:00"
+            "support": {
+                "source": "https://github.com/manuerumx/noun-store/tree/laravel6"
+            },
+            "time": "2021-05-10T13:03:50+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -2812,6 +2821,7 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
+        "chekote/noun-store": 20,
         "behat/mink-selenium2-driver": 20
     },
     "prefer-stable": false,
